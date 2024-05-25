@@ -1,0 +1,212 @@
+ /* Styles for the Header */ */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-top {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+
+.header-top p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.header-top i {
+    margin-right: 5px;
+}
+
+.header-main {
+    background-color: #000;
+    padding: 10px 0;
+}
+
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 500;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d4af37;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.btn-outline-light {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-light:hover {
+    color: #d4af37;
+    border-color: #d4af37;
+}
+
+.btn-light {
+    color: #000;
+    background-color: #fff;
+}
+
+.btn-light:hover {
+    background-color: #d4af37;
+    color: #fff;
+    border-color: #d4af37;
+}
+
+.bridal-section {
+    background-color: #000; 
+    color: #fff; 
+    padding: 50px;
+    text-align: center;
+}
+
+.bridal-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.collection-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ffcc00;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+#hero .btn-primary {
+    font-size: 1.25rem;
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+
+/* Styles for the footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    color: #555;
+}
+.social-links a {
+    color: #555;
+    margin: 0 10px;
+}
+
+
+.card {
+    margin: 0 auto;
+    max-width: 250px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+.jewellery{
+    background-color: #000;
+}
+/* Featured Products Section */
+.featured-heading {
+    color: #FF5733; 
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2); 
+}
+
+.jewellery .img-fluid {
+    border: 2px solid #FF5733; 
+    border-radius: 8px; 
+    transition: transform 0.3s ease; 
+}
+
+.jewellery .img-fluid:hover {
+    transform: scale(1.05); 
+}
+
+.welcome-text {
+    background-color: goldenrod; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .welcome-text p {
+    font-size: 1.25rem; 
+    color: #333; 
+    line-height: 1.6; 
+    margin: 0; 
+  }
+  
+  .welcome-text p::first-letter {
+    font-size: 2rem; 
+    font-weight: bold; 
+    color: black;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
